@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: hsl(213deg 22% 90%);
+    color: #000;
+}
+
+nav {
+    width: 905;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(1em + 1vw);
+}
+
+nav h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+}
+
+.scroll_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scroll_nav li {
+    list-style: none;
+    font-weight: 700;
+    font-family: Arial;
+    color: hsl(45deg 56% 40%);
+}
+
+.scroll_nav li.active {
+    color: hsl(45deg 87% 40%);
+}
+
+.scroll_card_large {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    overflow: auto;
+}
+
+.scroll_card_large .card {
+    min-width: 70%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.scroll_card_large .card img {
+    width: 100%;
+    height: 29vh;
+    border-radius: 15px;
+}
+
+.scroll_card_large .card .text {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.scroll_card_large .card strong {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.scroll_card_large .card p {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.scroll_card_large .card b {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.scroll_card_small {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.scroll_card_small .card {
+    min-width: 70%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.scroll_card_small .card img {
+    width: 50%;
+    height: 17vh;
+    border-radius: 15px;
+}
+
+.scroll_card_small .card .text {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.scroll_card_small .card strong {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.scroll_card_small .card p {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.scroll_card_small .card b {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: calc(1.5em + 1vw);
+}
